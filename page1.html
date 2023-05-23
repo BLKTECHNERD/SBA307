@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="p1style.css">
+<title>Biodiversity in Crisis: Understanding Endangered Species</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #797ef6;
+  margin: 0;
+  padding: 0; 
+}
+
+nav {
+  float: left;
+  width: 33.4%;
+  height: 300px; 
+  background-image: url(images/wl1.jpg);
+  padding: 20px;
+}
+
+.list_item:after {
+  color: aqua;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 66.6%;
+  background-color: #f1f1f1;
+  height: 300px; 
+  font-size: 90%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+}
+}
+       
+.form-container {
+  text-align: center;
+}
+        
+.submit-button {
+  margin-top: 10px;
+  background-color: aqua;
+}
+  
+img {
+  width: 100%;
+  height: auto;
+}
+
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: xx-large;
+  color: white;
+  font-weight: bolder;
+  font-style: oblique;
+}
+ 
+h2 {
+  color: #797ef6;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: x-large;
+}
+
+p {
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+}
+  
+.submit-button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+button:hover {
+  color: darkblue; 
+}
+</style>
+
+</head>
+<body>
+    
+  <video id="video-background" autoplay loop muted>
+        <source src="videos/pexels-adrien-jacta-5362421-3840x2160-25fps.mp4" type="video/mp4">
+    </video>
+
+<h1>Preserving Wildlife: A Biodiversity In Crisis</h1>
+
+<section>
+
+  <nav>
+    <ul>
+      <li class="list_item"><a href="page1.html">Home</a></li>
+      <li class="list_item"><a href="page2.html">Exploring Endangered Species</a></li>
+      <li class="list_item"><a href="page3.html">Join The Call To Action</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2> A Journey Into Endangered Species Conservation</h2>
+   
+<p style="font-size: medium; color: darkblue; font-weight: normal; font-family: gergia;">
+Welcome to our website that sheds light on the critical issue of endangered species and the urgent need for their conservation. As human activities continue to pose significant threats to wildlife and their habitats, it is essential that we understand the gravity of the situation and take action to preserve our planet's incredible biodiversity.
+
+In this article, we will explore endangered species, the causes of their decline, and the impact of their loss on ecosystems and humanity. We will also delve into the efforts being made by scientists, conservationists, and organizations worldwide to protect and restore endangered species populations.
+
+Through an exploration of fascinating examples from around the globe, we will learn about the challenges faced by various endangered species, their unique ecological roles, and the critical role of conservation initiatives in their survival. From majestic mammals and iconic birds to elusive marine creatures and fragile plants, each species plays a vital part in maintaining the delicate balance of our planet's ecosystems.
+
+Join us on this journey of discovery as we delve into the world of endangered species and explore the ways we can all contribute to their conservation. Together, we can make a difference and ensure a future where these remarkable species continue to thrive for generations to come.
+</p>
+
+</article>
+
+</section>
+
+<div class="container">
+    <div class="column">
+      <img src="images/pandapic.jpg" alt="panda">
+    </div>
+    <div class="column">
+      <img src="images/Untitled (1920 × 1080 px) (2304 × 1536 px).jpg" alt="leopard">
+    </div>
+    <div class="column">
+      <img src="images/ofiltered.jpg" alt="orangutan">
+    </div>
+</div>
+
+<br><br>
+
+<p style="color:white; font-size: x-large; font-style: oblique;">
+    Click the button below to explore a diverse range of endangered species.
+</p>
+
+<br>
+
+<a href="page2.html"><button style="background-color: aqua;">Exploring Endangered Species</button></a>
+
+<br><br><br>
+
+<p style="color: white; font-size: x-large; font-style: oblique; margin: 10px;">
+        Subscribe to our endangered species newsletter and stay updated on the latest conservation news, inspiring stories, and opportunities to make a difference in protecting our planet's most vulnerable species. Join our community of passionate individuals dedicated to preserving biodiversity and creating a sustainable future.
+</p>
+
+    <div class="form-container">
+       <form>
+        <div class="form-group">
+       <label for="email"></label>
+        <input type="email" id="email" placeholder="Email"/>
+    <input type="submit" value="Subscribe" class="submit-button">
+      </form>
+
+<br><br><br><br>
+
+<footer>
+  <img src="images/elephants6.jpg" alt="footer image">
+</footer>
+
+</body>
+</html>
+
