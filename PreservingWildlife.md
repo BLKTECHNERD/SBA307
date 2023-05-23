@@ -13,6 +13,20 @@ This project consists of the following files:
 5. page1.html, page2.html, page3.html: HTML files for different sections or pages of the website.
 6. README.md: This readme file providing information about the project.
 
+
+Animations
+
+Fade-in Animation for Images:
+
+The images within the "container" div now fade in smoothly when the page loads.
+This animation gives a gradual reveal effect, making the images more visually appealing.
+
+Slide-in Animation for Sections:
+
+The "nav" and "article" sections now slide in from the left when the page loads.
+This animation adds a dynamic entrance effect, grabbing the user's attention.
+
+
 Project Structure
 
 The project follows a simple structure with HTML, CSS, and image files organized in a directory. The main components of the website include:
@@ -33,13 +47,6 @@ The project follows a simple structure with HTML, CSS, and image files organized
 
 - Sign Up Form: The sign-up form enables users to actively engage and contribute by providing their name, phone number, and email. It serves as a registration form that encourages individuals to join the conservation movement.
 
-To run the website locally, follow these steps:
-
-1. Clone or download the project repository to your local machine.
-2. Open the `index.html` file in a web browser.
-3. Explore the different sections of the website, navigate through the pages, and interact with the buttons and forms.
-
-Customization: Feel free to customize the website according to your preferences. You can modify the content, styling, and add more pages or features to enhance the user experience. Make sure to update the file paths if you rename or reorganize any files or directories.
 
 Technologies Used: The project utilizes the following technologies:
 
@@ -47,8 +54,18 @@ Technologies Used: The project utilizes the following technologies:
 - CSS: The styling language used for visually enhancing the website.
 - Images and Videos: Visual media assets are used to create an engaging user experience.
 
-Credits: This project was created by Honey Marshall and includes third-party royalty free resources such as images and videos. Make sure to provide proper attribution and adhere to the licensing terms of these resources.
 
+To run the website locally, follow these steps:
+
+1. Clone or download the project repository to your local machine.
+2. Open the `index.html` file in a web browser.
+3. Explore the different sections of the website, navigate through the pages, and interact with the buttons and forms.
+
+
+Customization: Feel free to customize the website according to your preferences. You can modify the content, styling, and add more pages or features to enhance the user experience. Make sure to update the file paths if you rename or reorganize any files or directories.
+
+
+Credits: This project was created by Honey Marshall and includes third-party royalty free resources such as images and videos. Make sure to provide proper attribution and adhere to the licensing terms of these resources.
 
 
 Thank you for taking the time to explore this project. By raising awareness, fostering understanding, and encouraging action, this project aims to inspire positive change in the conservation of endangered species. Together, we can make a difference and protect the rich biodiversity that exists on our planet. Let us stand united in our commitment to safeguarding these magnificent creatures and ensuring a sustainable future for generations to come. Join the call to action and be a champion for endangered species conservation. Together, we can create a world where every species thrives and flourishes.
