@@ -72,5 +72,3 @@ Thank you for taking the time to explore this project. By raising awareness, fos
 
 https://github.com/BLKTECHNERD
 
-https://github.com/BLKTECHNERD/sba307
-
